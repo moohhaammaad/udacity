@@ -11,7 +11,7 @@ jobs:
     steps:
       - node/install
       - checkout
-      # install dependencies in both appss
+      # install dependencies in both apps
       - run:
           name: hello
           command: |
